@@ -1,0 +1,31 @@
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+/* Redondear los bordes del contenedor del slider */
+[data-simple-slider] {
+    border-radius: 15px; /* Puedes ajustar el valor según tus necesidades */
+    overflow: hidden;    /* Esto asegura que las imágenes no sobresalgan del contenedor redondeado */
+  }
+  
+  /* Alinear el texto de la etiqueta <p> con la clase "align-right" a la derecha */
+  .align-left {
+    text-align: left;
+  }
+  
+  .align-center {
+    text-align: center;
+  }
+
+  .centrar-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    
+    max-width: 60%;
+   
+}
+
+.img-cristobal {
+    border-radius: 30px; 
+    overflow: hidden;  
+}
